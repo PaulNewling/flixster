@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		v3LQlDga7wiuRG4LcIEzXPARn08=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		mfxNgFNNHbKaZO5qYjAdDc5TBcQ=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		BEnINtzyytKD1UmQB5SVTzu8ehs=
+		lGWmVCCINei216+Wu7K6HFHNFOs=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,19 +22,19 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		fIFFerGa55UMJ32c2JDKZkOFi2A=
+		mdtQYRZfZ1A5t5gXkgdUPR7He4g=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		h8HH2xSvYAmRMY3qJmqXnYWdgnE=
+		X1DeSNP+eBuzcr1xjI7dOtRqAWk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		MDrKFvFWroTb0+KEbQShBcoBvo4=
+		A70P54jkOtXrMvkj71l+4Pd9XL0=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-6Og-fP-qaT.nib</key>
 		<data>
-		X0Bw0ox+dVyBeh2JoqEKaGIKiK8=
+		J13ws2/F5T8HFc0pn1Zj2+Lk28M=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -68,6 +76,10 @@
 		<data>
 		/5UKC4bEt0P3Jv5/nNy6X8Lerek=
 		</data>
+		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<data>
+		8cBimLWS9Sj1vdh/zcJ98lCtP08=
+		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
 		tzIjxFJIAHPpvfCaHag1J1RrPX0=
@@ -78,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GKPUUgw0sXJ8QQ25g8jTXtjPeec=
+		2rgUc8T8CNRx+VS4eEErLNqYedo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -91,11 +103,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NDtz3K5aqLhnVg9PnbiPjHqfagpMs4ycW+PWVVSKcMc=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dfBXrmoBlAHDs/8v+dwsvULhIY5yn316fyi1YfaV8os=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L7kUadyqnyaL7gR3LiNdwx/2pm6aFLDzkUARNyLBWh4=
+			+zMVuEBZ23qZ4tm8qTngLnlEyqNYdTH2Nq4WMjjwHT4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -109,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+cOMBt9G02qCC6Nki9cRb1Fh9ok5s/sveyKSriO4vKA=
+			fL/P3khPZu9Fyvvvf+lMHry5EGE4FkPrFG6mMnnUKg0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5rSEUpKJilcu20SCOo/XgAFpnUxoG4HTSxwmrnmFH0=
+			TEnUfdZ7lFoBzhaFWuhEjOu5fdcLc+P4pGR8SQDO3Is=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
+			gKR3QFRMxXzFk6cy1n4xSxpW9oh7car9TGBmDEDoK7g=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-6Og-fP-qaT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KsS/yWzKNOqaydjowVaUF5z7IO3UEYlKxIz+ySvg1fQ=
+			3VohIRD4Ti63M1+D1GLOkhbCEMqK5xPbbghd9wjrmX0=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -201,6 +227,13 @@
 			<key>hash2</key>
 			<data>
 			nXUFhi7GOMbcCOPX3iqPwFs3a7fOWwPv5NbjPjfItFg=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Cc4TmsfKxUrTIyAsNA7Pv3lal4qr15POwEjXqtW8Ci4=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftUIKit.dylib</key>

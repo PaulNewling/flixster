@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66709A9A25D877110008C68B /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66709A9925D877110008C68B /* MovieViewController.swift */; };
+		6673F5E225D88E6D0032806E /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673F5E125D88E6D0032806E /* MovieViewCell.swift */; };
 		66B0152725D875AB0022ED74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0152625D875AB0022ED74 /* AppDelegate.swift */; };
 		66B0152C25D875AB0022ED74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B0152A25D875AB0022ED74 /* Main.storyboard */; };
 		66B0152E25D875AC0022ED74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B0152D25D875AC0022ED74 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		66709A9925D877110008C68B /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		6673F5E125D88E6D0032806E /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 		66B0152325D875AB0022ED74 /* flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B0152625D875AB0022ED74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66B0152B25D875AB0022ED74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				66B0152F25D875AC0022ED74 /* LaunchScreen.storyboard */,
 				66B0153225D875AC0022ED74 /* Info.plist */,
 				66709A9925D877110008C68B /* MovieViewController.swift */,
+				6673F5E125D88E6D0032806E /* MovieViewCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				66B0152725D875AB0022ED74 /* AppDelegate.swift in Sources */,
 				66709A9A25D877110008C68B /* MovieViewController.swift in Sources */,
+				6673F5E225D88E6D0032806E /* MovieViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
