@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>1A5064A7-10DB-4442-958A-B9FDD6B65318</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1A5064A7-10DB-4442-958A-B9FDD6B65318.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixster project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixster</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug flixster</string>
+			<key>timeStartedRecording</key>
+			<real>634942967.46009505</real>
+			<key>timeStoppedRecording</key>
+			<real>634943078.45845497</real>
+			<key>title</key>
+			<string>Debug flixster</string>
+			<key>uniqueIdentifier</key>
+			<string>1A5064A7-10DB-4442-958A-B9FDD6B65318</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

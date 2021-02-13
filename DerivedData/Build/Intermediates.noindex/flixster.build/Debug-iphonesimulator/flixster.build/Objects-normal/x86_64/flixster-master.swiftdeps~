@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4edcca14efcb86ba1d608279dc7aa6a1"
+build_time: [1613250397, 34260000]
+inputs:
+  "/Users/pnewling/Desktop/flixster/flixster/AppDelegate.swift": [1613250091, 0]
