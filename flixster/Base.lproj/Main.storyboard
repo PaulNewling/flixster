@@ -44,7 +44,7 @@
                                                     <rect key="frame" x="6" y="6" width="105" height="109"/>
                                                     <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="109" id="2m7-U2-5uS"/>
+                                                        <constraint firstAttribute="height" constant="150" id="2m7-U2-5uS"/>
                                                         <constraint firstAttribute="width" constant="105" id="CV8-ix-vOU"/>
                                                     </constraints>
                                                 </imageView>
@@ -57,7 +57,7 @@
                                                 <constraint firstItem="we3-Eg-Mug" firstAttribute="leading" secondItem="yPO-id-sK7" secondAttribute="trailing" constant="8" symbolic="YES" id="HwI-Jj-mre"/>
                                                 <constraint firstItem="eYw-zW-Lzb" firstAttribute="top" secondItem="NB7-fN-Bll" secondAttribute="top" constant="5" id="OWe-4r-a7u"/>
                                                 <constraint firstItem="yPO-id-sK7" firstAttribute="leading" secondItem="NB7-fN-Bll" secondAttribute="leading" constant="6" id="P8l-YT-Dz2"/>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yPO-id-sK7" secondAttribute="bottom" constant="5" id="eR3-Fh-BbJ"/>
+                                                <constraint firstAttribute="bottom" secondItem="yPO-id-sK7" secondAttribute="bottom" constant="5" id="eR3-Fh-BbJ"/>
                                                 <constraint firstItem="we3-Eg-Mug" firstAttribute="top" secondItem="eYw-zW-Lzb" secondAttribute="bottom" constant="5" id="u4Y-vO-fw0"/>
                                                 <constraint firstItem="yPO-id-sK7" firstAttribute="top" secondItem="NB7-fN-Bll" secondAttribute="top" constant="6" id="ywi-aW-yGt"/>
                                             </constraints>
