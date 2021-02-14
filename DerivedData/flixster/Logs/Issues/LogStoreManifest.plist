@@ -3,31 +3,232 @@
 <plist version="1.0">
 <dict>
 	<key>logFormatVersion</key>
-	<integer>9</integer>
+	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>63502F5E-A252-48B6-AF4A-14BC35D9A0BF</key>
+		<key>14185C1D-8053-4AA2-A89C-3E07A3F81571</key>
 		<dict>
 			<key>className</key>
-			<string>IDEActivityLogSection</string>
+			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>63502F5E-A252-48B6-AF4A-14BC35D9A0BF.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
+			<string>14185C1D-8053-4AA2-A89C-3E07A3F81571.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
 			<key>signature</key>
-			<string>flixster-acptmftkkdesjvbeymyuqdlzbnjg</string>
+			<string>flixster-azhkdfjcpcipkabphsgktrixiiop</string>
 			<key>timeStartedRecording</key>
-			<real>634950009.144678</real>
+			<real>635007658.53467906</real>
 			<key>timeStoppedRecording</key>
-			<real>634950010.02318501</real>
+			<real>635007667.62274599</real>
 			<key>title</key>
 			<string>Build target flixster</string>
 			<key>uniqueIdentifier</key>
-			<string>63502F5E-A252-48B6-AF4A-14BC35D9A0BF</string>
+			<string>14185C1D-8053-4AA2-A89C-3E07A3F81571</string>
+		</dict>
+		<key>27C7D75F-9949-4947-8D7D-C70BC45842C2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>27C7D75F-9949-4947-8D7D-C70BC45842C2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>flixsterUITests-azhkdfjcpcipkabphsgktrixiiop</string>
+			<key>timeStartedRecording</key>
+			<real>634953609.04169703</real>
+			<key>timeStoppedRecording</key>
+			<real>634953650.07398999</real>
+			<key>title</key>
+			<string>Build target flixsterUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>27C7D75F-9949-4947-8D7D-C70BC45842C2</string>
+		</dict>
+		<key>32DC9E4C-AC78-4939-A5F4-C2572AE0BA55</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>32DC9E4C-AC78-4939-A5F4-C2572AE0BA55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>AlamofireImage-hdyyazyoeqmpkyebqbogdrzebgzi</string>
+			<key>timeStartedRecording</key>
+			<real>635007658.51953101</real>
+			<key>timeStoppedRecording</key>
+			<real>635007659.00156403</real>
+			<key>title</key>
+			<string>Build target AlamofireImage</string>
+			<key>uniqueIdentifier</key>
+			<string>32DC9E4C-AC78-4939-A5F4-C2572AE0BA55</string>
+		</dict>
+		<key>5E68129A-7EDE-47C7-A4E3-E688A06832FC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>5E68129A-7EDE-47C7-A4E3-E688A06832FC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-flixster-flixsterUITests-hdyyazyoeqmpkyebqbogdrzebgzi</string>
+			<key>timeStartedRecording</key>
+			<real>634953609.04623604</real>
+			<key>timeStoppedRecording</key>
+			<real>634953624.68368399</real>
+			<key>title</key>
+			<string>Build target Pods-flixster-flixsterUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>5E68129A-7EDE-47C7-A4E3-E688A06832FC</string>
+		</dict>
+		<key>775B004E-4F02-440C-877D-9087C39F1AC3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>775B004E-4F02-440C-877D-9087C39F1AC3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-flixster-hdyyazyoeqmpkyebqbogdrzebgzi</string>
+			<key>timeStartedRecording</key>
+			<real>635007658.53117394</real>
+			<key>timeStoppedRecording</key>
+			<real>635007659.04501998</real>
+			<key>title</key>
+			<string>Build target Pods-flixster</string>
+			<key>uniqueIdentifier</key>
+			<string>775B004E-4F02-440C-877D-9087C39F1AC3</string>
+		</dict>
+		<key>780B1EE4-6D6D-47CC-87D5-E8E7C36BE5AA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>780B1EE4-6D6D-47CC-87D5-E8E7C36BE5AA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-flixsterTests-hdyyazyoeqmpkyebqbogdrzebgzi</string>
+			<key>timeStartedRecording</key>
+			<real>634953609.04372799</real>
+			<key>timeStoppedRecording</key>
+			<real>634953624.73356497</real>
+			<key>title</key>
+			<string>Build target Pods-flixsterTests</string>
+			<key>uniqueIdentifier</key>
+			<string>780B1EE4-6D6D-47CC-87D5-E8E7C36BE5AA</string>
+		</dict>
+		<key>81A0919B-20C7-4642-AD48-5DEE39FF6CCF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>81A0919B-20C7-4642-AD48-5DEE39FF6CCF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>flixsterTests-azhkdfjcpcipkabphsgktrixiiop</string>
+			<key>timeStartedRecording</key>
+			<real>634953645.09456003</real>
+			<key>timeStoppedRecording</key>
+			<real>634953649.52679205</real>
+			<key>title</key>
+			<string>Build target flixsterTests</string>
+			<key>uniqueIdentifier</key>
+			<string>81A0919B-20C7-4642-AD48-5DEE39FF6CCF</string>
+		</dict>
+		<key>FA733CE8-BF75-4C46-8C5B-66739B85F8A5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>FA733CE8-BF75-4C46-8C5B-66739B85F8A5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Alamofire-hdyyazyoeqmpkyebqbogdrzebgzi</string>
+			<key>timeStartedRecording</key>
+			<real>635007656.38452697</real>
+			<key>timeStoppedRecording</key>
+			<real>635007658.81676495</real>
+			<key>title</key>
+			<string>Build target Alamofire</string>
+			<key>uniqueIdentifier</key>
+			<string>FA733CE8-BF75-4C46-8C5B-66739B85F8A5</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

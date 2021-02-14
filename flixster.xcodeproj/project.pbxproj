@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		66B0153C25D875AC0022ED74 /* flixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0153B25D875AC0022ED74 /* flixsterTests.swift */; };
 		66B0154725D875AC0022ED74 /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0154625D875AC0022ED74 /* flixsterUITests.swift */; };
 		699D2AD81F94F0D659B5634E /* Pods_flixster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645E25DBCA171CCC3B317D54 /* Pods_flixster.framework */; };
+		DA6C52BC25D971D00006A1A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA6C52BB25D971D00006A1A1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		78640E97469DBFE33EE84E5D /* Pods-flixsterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.debug.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		82B3536E9501A3F9883493FB /* Pods-flixster-flixsterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster-flixsterUITests.release.xcconfig"; path = "Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A4A5EE3051D4C69CE8BE1879 /* Pods-flixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.debug.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.debug.xcconfig"; sourceTree = "<group>"; };
+		DA6C52BB25D971D00006A1A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0A8E5AF670E3F52FB26E44C /* Pods-flixster-flixsterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster-flixsterUITests.debug.xcconfig"; path = "Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5874325450D95E925B4C9D /* Pods-flixsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.release.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,13 +103,13 @@
 				78640E97469DBFE33EE84E5D /* Pods-flixsterTests.debug.xcconfig */,
 				EC5874325450D95E925B4C9D /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		66B0151A25D875AB0022ED74 = {
 			isa = PBXGroup;
 			children = (
+				DA6C52BB25D971D00006A1A1 /* README.md */,
 				66B0152525D875AB0022ED74 /* flixster */,
 				66B0153A25D875AC0022ED74 /* flixsterTests */,
 				66B0154525D875AC0022ED74 /* flixsterUITests */,
@@ -237,18 +239,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Paul Newling";
 				TargetAttributes = {
 					66B0152225D875AB0022ED74 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1240;
 					};
 					66B0153625D875AC0022ED74 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1240;
 						TestTargetID = 66B0152225D875AB0022ED74;
 					};
 					66B0154125D875AC0022ED74 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1240;
 						TestTargetID = 66B0152225D875AB0022ED74;
 					};
 				};
@@ -280,6 +285,7 @@
 			files = (
 				66B0153125D875AC0022ED74 /* LaunchScreen.storyboard in Resources */,
 				66B0152E25D875AC0022ED74 /* Assets.xcassets in Resources */,
+				DA6C52BC25D971D00006A1A1 /* README.md in Resources */,
 				66B0152C25D875AB0022ED74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +497,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -552,6 +559,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -587,6 +595,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y959M46MC;
 				INFOPLIST_FILE = flixster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,7 +603,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PaulNewling.flixster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -605,6 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Y959M46MC;
 				INFOPLIST_FILE = flixster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -612,7 +622,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PaulNewling.flixster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -632,7 +642,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PaulNewling.flixsterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flixster.app/flixster";
 			};
@@ -653,7 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PaulNewling.flixsterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flixster.app/flixster";
 			};
@@ -673,7 +683,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PaulNewling.flixsterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = flixster;
 			};
@@ -693,7 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PaulNewling.flixsterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = flixster;
 			};

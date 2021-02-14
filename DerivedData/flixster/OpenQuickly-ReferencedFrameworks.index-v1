@@ -16,7 +16,6 @@
 	<string>AppKit</string>
 	<string>Foundation</string>
 	<string>Cocoa</string>
-	<string>Combine</string>
 	<string>UIKit</string>
 	<string>SystemConfiguration</string>
 </array>
