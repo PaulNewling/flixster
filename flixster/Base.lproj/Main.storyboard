@@ -66,6 +66,7 @@
                                             <outlet property="posterView" destination="yPO-id-sK7" id="6yY-Ou-pWq"/>
                                             <outlet property="sysnopsisLabel" destination="we3-Eg-Mug" id="8JD-BE-o25"/>
                                             <outlet property="titleLabel" destination="eYw-zW-Lzb" id="ThB-gv-yNq"/>
+                                            <segue destination="LhY-8I-2JT" kind="show" id="aVF-X2-5Ov"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -89,6 +90,22 @@
             </objects>
             <point key="canvasLocation" x="986.95652173913049" y="-535.04464285714278"/>
         </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="t0l-TB-hcI">
+            <objects>
+                <viewController id="LhY-8I-2JT" customClass="MovieDetailsViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Laj-30-2RX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hQ1-8X-FSi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vpZ-31-JeU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7a-M3-iVa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1778" y="-535"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZUN-cW-67Z">
             <objects>
@@ -109,6 +126,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
