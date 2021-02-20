@@ -9,8 +9,8 @@
 	<string>CoreGraphics</string>
 	<string>WatchKit</string>
 	<string>flixster</string>
-	<string>XCTest</string>
 	<string>AlamofireImage</string>
+	<string>XCTest</string>
 	<string>CoreData</string>
 	<string>MobileCoreServices</string>
 	<string>AppKit</string>

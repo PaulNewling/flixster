@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>04AB3B52-F666-4896-BC49-3864E7E2CD1C</key>
+		<key>2334F87A-791F-402B-A652-B13BE95DF8D6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>04AB3B52-F666-4896-BC49-3864E7E2CD1C.xcactivitylog</string>
+			<string>2334F87A-791F-402B-A652-B13BE95DF8D6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -24,15 +24,15 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>AlamofireImage-hdyyazyoeqmpkyebqbogdrzebgzi</string>
+			<string>Pods-flixster-hdyyazyoeqmpkyebqbogdrzebgzi</string>
 			<key>timeStartedRecording</key>
-			<real>635008927.45283997</real>
+			<real>635545355.22236395</real>
 			<key>timeStoppedRecording</key>
-			<real>635008927.46830106</real>
+			<real>635545355.28206205</real>
 			<key>title</key>
-			<string>Build target AlamofireImage</string>
+			<string>Build target Pods-flixster</string>
 			<key>uniqueIdentifier</key>
-			<string>04AB3B52-F666-4896-BC49-3864E7E2CD1C</string>
+			<string>2334F87A-791F-402B-A652-B13BE95DF8D6</string>
 		</dict>
 		<key>27C7D75F-9949-4947-8D7D-C70BC45842C2</key>
 		<dict>
@@ -62,34 +62,6 @@
 			<key>uniqueIdentifier</key>
 			<string>27C7D75F-9949-4947-8D7D-C70BC45842C2</string>
 		</dict>
-		<key>5A095BA1-713D-4869-B1EA-4283431A248D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>5A095BA1-713D-4869-B1EA-4283431A248D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Pods-flixster-hdyyazyoeqmpkyebqbogdrzebgzi</string>
-			<key>timeStartedRecording</key>
-			<real>635008927.46744597</real>
-			<key>timeStoppedRecording</key>
-			<real>635008927.47162998</real>
-			<key>title</key>
-			<string>Build target Pods-flixster</string>
-			<key>uniqueIdentifier</key>
-			<string>5A095BA1-713D-4869-B1EA-4283431A248D</string>
-		</dict>
 		<key>5E68129A-7EDE-47C7-A4E3-E688A06832FC</key>
 		<dict>
 			<key>className</key>
@@ -117,6 +89,34 @@
 			<string>Build target Pods-flixster-flixsterUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>5E68129A-7EDE-47C7-A4E3-E688A06832FC</string>
+		</dict>
+		<key>6515A220-42E9-4112-879C-291C53143953</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>6515A220-42E9-4112-879C-291C53143953.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>AlamofireImage-hdyyazyoeqmpkyebqbogdrzebgzi</string>
+			<key>timeStartedRecording</key>
+			<real>635545350.38626897</real>
+			<key>timeStoppedRecording</key>
+			<real>635545355.22838199</real>
+			<key>title</key>
+			<string>Build target AlamofireImage</string>
+			<key>uniqueIdentifier</key>
+			<string>6515A220-42E9-4112-879C-291C53143953</string>
 		</dict>
 		<key>780B1EE4-6D6D-47CC-87D5-E8E7C36BE5AA</key>
 		<dict>
@@ -174,7 +174,7 @@
 			<key>uniqueIdentifier</key>
 			<string>81A0919B-20C7-4642-AD48-5DEE39FF6CCF</string>
 		</dict>
-		<key>E774E32D-E758-432F-9777-55C609D9A783</key>
+		<key>CBC58CE6-B090-491D-B0C7-4BC8CA4E51D4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -183,7 +183,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>E774E32D-E758-432F-9777-55C609D9A783.xcactivitylog</string>
+			<string>CBC58CE6-B090-491D-B0C7-4BC8CA4E51D4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -194,15 +194,15 @@
 			<key>signature</key>
 			<string>Alamofire-hdyyazyoeqmpkyebqbogdrzebgzi</string>
 			<key>timeStartedRecording</key>
-			<real>635008920.49152005</real>
+			<real>635545350.08407199</real>
 			<key>timeStoppedRecording</key>
-			<real>635008927.45392001</real>
+			<real>635545355.02004302</real>
 			<key>title</key>
 			<string>Build target Alamofire</string>
 			<key>uniqueIdentifier</key>
-			<string>E774E32D-E758-432F-9777-55C609D9A783</string>
+			<string>CBC58CE6-B090-491D-B0C7-4BC8CA4E51D4</string>
 		</dict>
-		<key>FA54C306-618F-49AB-9EFF-E82F71957E3E</key>
+		<key>FEC6E77E-CDB5-467F-89D0-93F4E47BEFBD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -211,7 +211,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>FA54C306-618F-49AB-9EFF-E82F71957E3E.xcactivitylog</string>
+			<string>FEC6E77E-CDB5-467F-89D0-93F4E47BEFBD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -222,13 +222,13 @@
 			<key>signature</key>
 			<string>flixster-azhkdfjcpcipkabphsgktrixiiop</string>
 			<key>timeStartedRecording</key>
-			<real>635009374.89214897</real>
+			<real>635545355.28244805</real>
 			<key>timeStoppedRecording</key>
-			<real>635009385.29853797</real>
+			<real>635545363.06315506</real>
 			<key>title</key>
 			<string>Build target flixster</string>
 			<key>uniqueIdentifier</key>
-			<string>FA54C306-618F-49AB-9EFF-E82F71957E3E</string>
+			<string>FEC6E77E-CDB5-467F-89D0-93F4E47BEFBD</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

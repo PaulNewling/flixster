@@ -1,0 +1,64 @@
+//
+//  MovieDetailsViewController.swift
+//  flixster
+//
+//  Created by Paul Newling on 2/15/21.
+//  Copyright © 2021 Paul Newling. All rights reserved.
+//
+
+import UIKit
+import AlamofireImage
+
+class MovieDetailsViewController: UIViewController {
+
+    @IBOutlet weak var backdropView: UIImageView!
+    @IBOutlet weak var posterView: UIImageView!{
+        didSet{
+            posterView.isUserInteractionEnabled = true
+        }
+    }
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var synopsisLabel: UILabel!
+    
+    var movie: [String:Any]!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+
+        titleLabel.text = movie["title"] as? String
+        titleLabel.sizeToFit()
+        synopsisLabel.text = movie["overview"] as? String
+        synopsisLabel.sizeToFit()
+        
+        let basePosterURL = "https://image.tmdb.org/t/p/w185"
+        let posterpath = movie["poster_path"] as! String
+        let posterURL = URL(string: basePosterURL + posterpath)
+        
+        posterView.af_setImage(withURL: posterURL!)
+        
+        let baseBackdropURL = "https://image.tmdb.org/t/p/w780"
+        let backdropPath = movie["backdrop_path"] as! String
+        let backdropURL = URL(string: baseBackdropURL + backdropPath)
+        
+        backdropView.af_setImage(withURL: backdropURL!)
+        
+    }
+    
+    @IBAction func didTapPoster( sender: UITapGestureRecognizer) {
+        
+        print("Poster Tapped")
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
