@@ -12,7 +12,11 @@ import AlamofireImage
 class MovieDetailsViewController: UIViewController {
 
     @IBOutlet weak var backdropView: UIImageView!
-    @IBOutlet weak var posterView: UIImageView!
+    @IBOutlet weak var posterView: UIImageView!{
+        didSet{
+            posterView.isUserInteractionEnabled = true
+        }
+    }
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
     
@@ -20,6 +24,7 @@ class MovieDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
@@ -38,9 +43,13 @@ class MovieDetailsViewController: UIViewController {
         
         backdropView.af_setImage(withURL: backdropURL!)
         
-        
-        
     }
+    
+    @IBAction func didTapPoster( sender: UITapGestureRecognizer) {
+        
+        print("Poster Tapped")
+    }
+    
 
     /*
     // MARK: - Navigation
