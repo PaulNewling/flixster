@@ -12,15 +12,15 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 #### BONUS
 - [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+- [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/8nJAhu6gyt.gif" width=250>
+<img src="http://g.recordit.co/anOAXHUlV4.gif" width=250>
 
 ### Notes
 The walkthrough for this assignment was pretty good, so I didn't not hit any roadblocks for this portion.
-For the bonus stories through I am unable (at this time) to get get the modally presented trailer.
+
 ---
 
 ## Flix Part 1
