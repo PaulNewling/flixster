@@ -12,13 +12,10 @@ import AlamofireImage
 class MovieDetailsViewController: UIViewController {
 
     @IBOutlet weak var backdropView: UIImageView!
-    @IBOutlet weak var posterView: UIImageView!{
-        didSet{
-            posterView.isUserInteractionEnabled = true
-        }
-    }
+    @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var trailerButton: UIButton!
     
     var movie: [String:Any]!
     
@@ -45,20 +42,37 @@ class MovieDetailsViewController: UIViewController {
         
     }
     
-    @IBAction func didTapPoster( sender: UITapGestureRecognizer) {
-        
-        print("Poster Tapped")
-    }
     
 
-    /*
+    
+
+    
+
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        // Find selected movie
+        let movieID = movie["id"]
+//        let baseUrl = "https://api.themoviedb.org/3/movie/"
+//        let getVideoUrl = "/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US"
+//        let fullUrl = URL(string: baseUrl + movieID + getVideoUrl)
+//        print("Movie URL GET Request \(fullUrl)" )
+        
+        
+        
+        
+        // Pass selected movie to details view controller
+        
+        let trailerViewController = segue.destination as! TrailerViewController
+        
+        trailerViewController.movieID = movieID as! Int
+        
+        
+        
     }
-    */
+    
+    
 
 }
