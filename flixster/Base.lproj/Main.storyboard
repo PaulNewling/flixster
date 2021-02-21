@@ -143,6 +143,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPA-hv-qHB">
+                                <rect key="frame" x="20" y="340" width="139" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="0tq-Ub-T2x" kind="presentation" identifier="playTrailer" modalTransitionStyle="flipHorizontal" id="V4V-lD-zHg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hQ1-8X-FSi"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -153,6 +160,7 @@
                         <outlet property="posterView" destination="Ovk-Oc-08H" id="3Af-1E-59Z"/>
                         <outlet property="synopsisLabel" destination="avf-yl-qyD" id="DvV-5C-01O"/>
                         <outlet property="titleLabel" destination="NzP-xJ-hme" id="y2O-uM-nAc"/>
+                        <outlet property="trailerButton" destination="kPA-hv-qHB" id="8NI-0I-Pse"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l7a-M3-iVa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -162,7 +170,36 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="148" y="552"/>
+            <point key="canvasLocation" x="147.82608695652175" y="551.11607142857144"/>
+        </scene>
+        <!--Trailer View Controller-->
+        <scene sceneID="2zi-lA-FTL">
+            <objects>
+                <viewController id="0tq-Ub-T2x" customClass="TrailerViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fYC-VZ-Ja5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ym-IO-YYS">
+                                <rect key="frame" x="0.0" y="-31" width="414" height="873"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sE0-gC-25b"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="trailerWebView" destination="2Ym-IO-YYS" id="37u-xt-roQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J1u-bC-fYa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147.82608695652175" y="1341.2946428571429"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="ZUN-cW-67Z">
@@ -257,11 +294,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="86X-IV-fbb"/>
+        <segue reference="aVF-X2-5Ov"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
